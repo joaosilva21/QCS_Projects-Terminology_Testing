@@ -1,0 +1,41 @@
+Whitebox
+compress
+C1 - 18/46    9/14     13/22  
+C2 - 20/46    10/14    13/22
+C3 - 28/46    13/14    19/22
+C4 - 29/46    13/14    20/22
+C5 - 30/46    14/14    20/22
+C6 - 35/46    14/14    22/22
+C7 - 36/46    14/14    22/22
+C8 - 41/46    14/14    22/22
+C9 - 46/46    14/14    22/22
+
+metodos: open(), .read(), bytearray(), len(), bytes(), reversed(), range(), .rfind(), 
+         .from_data(), .encode(), .split(), .dump(), .write(), print()
+
+14 metodos
+
+variáveis: “self”, “str”, “file”, “text”, “i”, “BIN”, “i_start_window”, “window”,
+	     “buffer”, “binary”, “toskip”, “size”, “posW”, “char”, “pos”,  “codec”,
+           “BIN2”, “splitted”, “toremove”, “towrite”, “freq”, “encodedFile”.
+
+22 variáveis
+
+decompress
+C1 - 18/27    10/13    16/17
+C2 - 23/27    12/13    17/17
+C3 - 25/27    12/13    17/17
+C4 - 24/27    12/13    17/17
+C5 - 27/27    12/13    17/17
+
+metodos: open(), .load(), .read(), bytearray(), .decode(), bytes(), range(), len(), 
+         .append(), chr(), .split(), .write(), print()
+
+13 metodos
+
+variáveis: “self”, “name”, “freq”, “codec”, “encodedFile”, “dic”, “text”, “char”, “aux”, “i”, 
+           “text2”, “elem”, “start”, “splitted”, “toremove”, “towrite”, “decodedFile”. 
+
+17 variáveis
+
+NOTA: na contagem das linhas não é contabilizado o cabeçalho da função

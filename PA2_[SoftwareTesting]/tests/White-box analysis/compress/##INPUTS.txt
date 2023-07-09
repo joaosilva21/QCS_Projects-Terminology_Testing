@@ -1,0 +1,6 @@
+1) python deflate.py 100 10 -compress off test1_2.txt
+2) python deflate.py 100 10 -compress on test1_2.txt
+3) python deflate.py 0 10 -compress off test3_5_6.txt
+4) python deflate.py 100 10 -compress off test4.txt
+5) python deflate.py 100 10 -compress off test3_5_6.txt
+6) python deflate.py 100 10 -compress on test3_5_6.txt

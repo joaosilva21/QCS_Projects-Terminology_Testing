@@ -1,0 +1,10 @@
+1) python deflate.py 100 10 -decompress off T1/compressed_test4.bin
+2) python deflate.py 100 10 -decompress off T2/compressed_test4.bin
+3) python deflate.py 100 10 -decompress on T3/compressed_test4.bin
+4) python deflate.py 100 10 -decompress on T4/compressed_test.bin
+5) python deflate.py 100 10 -decompress on T5_T6/compressed_test4_5.bin
+6) python deflate.py 100 10 -decompress off T5_T6/compressed_test4_5.bin
+
+
+NOTA: os parametros 100 e 10 não são realmente utilizados, mas a execução do decompress
+      pede para que valores como estes sejam inseridos

@@ -1,0 +1,142 @@
+Black-box analysis
+compress
+1) python deflate.py 1 10 -compress off bible.txt
+   python deflate.py 0 10 -compress off bible.txt
+   python deflate.py 500 10 -compress off bible.txt
+   python deflate.py 1000 10 -compress off bible.txt
+
+2) python deflate.py 1001 10 -compress off bible.txt
+   python deflate.py 5422 10 -compress off bible.txt
+   python deflate.py 10000 10 -compress off bible.txt
+
+3) python deflate.py 9223372036854765808 10 -compress off bible.txt
+   python deflate.py 9223372036854775708 10 -compress off bible.txt
+   python deflate.py 9223372036854775807 10 -compress off bible.txt
+
+4) python deflate.py 10001 10 -compress off bible.txt
+   python deflate.py 450000 10 -compress off bible.txt
+   python deflate.py 9223372036854765807 -compress off bible.txt
+
+5) python deflate.py -1 10 -compress off bible.txt
+   python deflate.py -10 10 -compress off bible.txt
+
+6) python deflate.py 9223372036854775808 10 -compress off bible.txt
+
+7) python deflate.py 10www1 10 -compress off bible.txt
+   python deflate.py 12a3a2 10 -compress off bible.txt
+
+8) python deflate.py olaaa 10 -compress off bible.txt
+   python deflate.py hmhmhm 10 -compress off bible.txt
+
+9) python deflate.py 1.1 10 -compress off bible.txt
+   python deflate.py 10.2 10 -compress off bible.txt
+
+10) python deflate.py 100 0 -compress off bible.txt
+    python deflate.py 100 10 -compress off bible.txt
+    python deflate.py 100 100 -compress off bible.txt
+
+11) python deflate.py 100 101 -compress off bible.txt
+    python deflate.py 100 145 -compress off bible.txt
+    python deflate.py 100 155 -compress off bible.txt
+
+12) python deflate.py 100 156 -compress off bible.txt
+    python deflate.py 100 22 -compress off bible.txt
+    python deflate.py 100 256 -compress off bible.txt
+
+13) python deflate.py 100 -1 -compress off bible.txt
+    python deflate.py 100 -10 -compress off bible.txt
+
+14) python deflate.py 100 257 -compress off bible.txt
+    python deflate.py 100 1270 -compress off bible.txt
+
+15) python deflate.py 100 2w5w7 -compress off bible.txt
+    python deflate.py 100 8912a -compress off bible.txt
+
+16) python deflate.py 100 olaaaaa -compress off bible.txt
+    python deflate.py 100 possohex -compress off bible.txt
+
+17) python deflate.py 100 123.2 -compress off bible.txt
+    python deflate.py 100 8999.2 -compress off bible.txt
+
+18) python deflate.py 100 100 123213 off bible.txt
+    python deflate.py 100 100 223532 off bible.txt
+
+19) python deflate.py 100 100 -outraaaa off bible.txt
+    python deflate.py 100 100 -decompress off bible.txt
+
+20) python deflate.py 100 100 -compress on bible.txt
+
+21) python deflate.py 100 100 -compress 123 bible.txt
+    python deflate.py 100 100 -compress 1782 bible.txt
+
+22) python deflate.py 100 100 -compress outrstring bible.txt
+    python deflate.py 100 100 -compress hmhm bible.txt
+
+23) python deflate.py 100 100 -compress off bible.txt
+
+24) python deflate.py 100 100 -compress off finance.csv
+
+25) python deflate.py 100 100 -compress off deflate.py
+
+26) python deflate.py 100 100 -compress off "Untitled Diagram.drawio (29).png"
+
+27) python deflate.py 100 100 -compress off "QCS Assignment 2 v1.1.pdf"
+
+28) python deflate.py 100 100 -compress off bible.txt
+
+29) python deflate.py 100 100 -compress off japanese.txt
+
+
+decompress
+1) python deflate.py -decompress on T1_T2_T3_T4_T7/compressed_test3_5_6.bin .txt
+
+2) python deflate.py -decompress 123213 T1_T2_T3_T4_T7/compressed_test3_5_6.bin .txt
+   python deflate.py -decompress 123 T1_T2_T3_T4_T7/compressed_test3_5_6.bin .txt
+
+3) python deflate.py -decompress outrstring T1_T2_T3_T4_T7/compressed_test3_5_6.bin .txt
+   python deflate.py -decompress hmhm T1_T2_T3_T4_T7/compressed_test3_5_6.bin .txt
+
+4) python deflate.py -decompress off T1_T2_T3_T4_T7/compressed_test3_5_6.bin .txt
+
+5) python deflate.py -decompress off bible.txt .txt
+
+6) python deflate.py -decompress off finance.csv .txt
+
+7) python deflate.py -decompress off T1_T2_T3_T4_T7/compressed_test3_5_6.bin .txt
+
+8) python deflate.py -decompress off T8/compressed_deflate.bin .py
+
+9) python deflate.py -decompress off T1_T2_T3_T4_T7/compressed_test3_5_6.bin .png
+
+10) python deflate.py -decompress off T1_T2_T3_T4_T7/compressed_test3_5_6.bin .png
+
+11) python deflate.py -decompress off T11/compressed_test3_5_6.bin .png
+
+12) python deflate.py -decompress off T1_T2_T3_T4_T7/compressed_test3_5_6.bin .png
+
+13) python deflate.py -decompress off T12/compressed_test3_5_6.bin .png
+
+14) python deflate.py -ontrrrr off T1_T2_T3_T4_T7/compressed_test3_5_6.bin .png
+    python deflate.py -compress off T1_T2_T3_T4_T7/compressed_test3_5_6.bin .png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
