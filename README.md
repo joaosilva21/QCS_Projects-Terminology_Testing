@@ -14,7 +14,7 @@ Consists in develop a group of projects related with Software Quality and Depend
 ## Technologies used:
 1. Python (PA2)
     - [Version 3.9](https://www.python.org/downloads/release/python-390/)
-2. [PYCFG](https://www.geeksforgeeks.org/draw-control-flow-graph-using-pycfg-python/)
+2. [PYCFG](https://www.geeksforgeeks.org/draw-control-flow-graph-using-pycfg-python/)(PA2)
 
 ## Authors:
 - [João Silva](https://github.com/joaosilva21)
